@@ -7,12 +7,11 @@ Languaje: C
 Group size: 1
 
 Compilation: on GNU/Linux 
+
 ```
-gcc *.c -Wall -Werror -Wconversion -std=c99 -o evento_pesca
+gcc *.c -o lista_se -g -std=c99 -Wall -Wconversion -Wtype-limits -pedantic -Werror -O0
 
-valgrind --leak-check=full --track-origins=yes --show-reachable=yes ./evento_pesca
-
-./evento_pesca
+./lista_se
 ```
 
 
