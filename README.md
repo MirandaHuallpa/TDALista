@@ -1,2 +1,7 @@
 # TDALista
-TDA Lista is proyect for University of Buenos Aires
+
+List Abstract Data Type (ADT)
+
+
+
+
